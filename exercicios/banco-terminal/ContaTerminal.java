@@ -8,7 +8,7 @@ public class ContaTerminal {
         int numero = scanner.nextInt();
 
         System.out.println("Por favor, digite o número da Agência:");
-        scanner.nextLine(); // Consumir a nova linha pendente
+        scanner.nextLine(); 
         String agencia = scanner.nextLine();
 
         System.out.println("Por favor, digite o seu Nome:");
@@ -21,7 +21,6 @@ public class ContaTerminal {
                           ", conta " + numero + " e seu saldo " + saldo + " já está disponível para saque.";
         
         System.out.println(msg);
-
         scanner.close();
     }
 }
